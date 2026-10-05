@@ -22,7 +22,7 @@ HTML uses **tags** to define elements. Tags are keywords surrounded by angle bra
 
 ---
 
-## 📋 Basic HTML Structure
+## 📋  
 Every HTML document follows this basic structure:
 
 ```html
