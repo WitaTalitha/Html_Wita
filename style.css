@@ -1,0 +1,176 @@
+/* Styling Umum & Latar Belakang */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #ff7fb0 0%, #ffa1d0 100%);
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Kontainer Utama & Card Tersusun ke Bawah */
+.dashboard-container {
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Jarak antar card ke bawah */
+}
+
+/* Setiap Card Berwarna Putih */
+.card, .header-card, .footer-card {
+    background-color: #ffcde9;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+/* Header Card (Judul Utama) */
+.header-card {
+    background: transparent;
+    text-align: center;
+    box-shadow: none;
+    padding: 10px 0;
+}
+
+.header-card h1 {
+    margin: 0 0 5px 0;
+    color: #ffffff;
+    font-size: 2.2rem;
+}
+
+.header-card p {
+    margin: 0;
+    color: #ffffff;
+    font-size: 1.1rem;
+}
+
+/* Heading di dalam Card */
+.card h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #eaeaea;
+    padding-bottom: 8px;
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+/* Tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    overflow: hidden;
+    border-radius: 6px;
+}
+
+th, td {
+    padding: 10px 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 0.9rem;
+}
+
+th {
+    background-color: #ff8aca;
+    color: rgb(255, 252, 253);
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Blok Kode */
+pre {
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+    padding: 15px;
+    border-radius: 8px;
+    overflow-x: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.85rem;
+}
+
+code {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #ff9dcb;
+    padding: 2px 5px;
+    border-radius: 4px;
+    color: #c7254e;
+    font-size: 0.85rem;
+}
+
+pre code {
+    background-color: transparent;
+    color: #d4d4d4;
+    padding: 0;
+}
+
+/* Formulir */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 0.9rem;
+}
+
+textarea {
+    resize: vertical;
+    height: 90px;
+}
+
+button[type="submit"] {
+    background-color: #f156a4;
+    color: rgb(255, 188, 219);
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    align-self: flex-start;
+}
+
+button[type="submit"]:hover {
+    background-color: #e64279;
+}
+
+/* List */
+ul, ol {
+    margin: 5px 0;
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 6px;
+    font-size: 0.95rem;
+}
+
+/* Footer Card */
+.footer-card {
+    background-color: #e7579b;
+    color: white;
+    text-align: center;
+}
+
+.footer-card h2 {
+    color: white;
+    border-bottom: none;
+}
